@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Github{
+    static void Practice(){
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter you marks to check the result : ");
+        int marks = input.nextInt();
+        String op = (marks>=35) ? marks+" you have cleared the test" : marks+" you have not cleared the test";
+        
+        System.out.println(op);
+        
+    }
+    public static void main(String args[]){
+        Practice();
+        
+    }
+}
